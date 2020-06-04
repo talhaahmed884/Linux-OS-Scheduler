@@ -1,0 +1,10 @@
+g++ q.cpp -o q
+g++ newProc.cpp -o newProc
+g++ -pthread -o readyProc readyProc.cpp 
+g++ FCFSrun.cpp -o FCFSrun
+g++ RRrun.cpp -o RRrun
+g++ SJFrun.cpp -o SJFrun
+g++ SRTFrun.cpp -o SRTFrun
+g++ exitProc.cpp -o exitProc
+g++ -pthread -o blockedProc blockedProc.cpp
+./q
